@@ -2,4 +2,4 @@
 set -x
 
 sudo apt-get update
-sudo sed -i 's/bash/tcsh/g' /etc/passwd
+sudo sed -i 's/tcsh/bash/g' /etc/passwd
